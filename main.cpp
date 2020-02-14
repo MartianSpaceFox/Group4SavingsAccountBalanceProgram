@@ -59,7 +59,9 @@ int main() {
     //main loop
     while (month <= count) {
         //Prompt user for monthly deposit
+        cout << endl;
         cout << "Month " << month << endl;
+        cout << "-------------" << endl;
         cout << "Enter the total deposit for month " << month << ": ";
         cin >> deposit;
         //validation
